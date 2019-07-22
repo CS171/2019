@@ -23,13 +23,13 @@ After completion of the course you will be able to:
 ### Limited Enrollment
 To provide the best possible learning experience this course is limited to 80 college students and 30 DCE students, respectively.
   
-*College students:* If you are interested in joining this course please fill out a enrollment survey. **The enrollment survey will be available after the first lecture (Sept 5th, 5:00pm) until Sunday Sept 9th, midnight.** The survey is available on our Canvas page.  
+*College students:* If you are interested in joining this course please fill out a enrollment survey. **The enrollment survey will be available AFTER the first lecture (Sept 4th, 5:00pm) until Sunday Sept 8th, midnight.** The survey is available on our Canvas page.  
 
-*Harvard Extension School (DCE) students:* Course enrollment is on a first-come, first-serve basis.
+*Harvard Extension School (DCE) students:* Course enrollment is on a first-come, first-serve basis, starting July 29th.
 
 
 ### Prerequisites
-You are expected to have programming experience (e.g,. CS50, Introduction to Programming) and you should be comfortable picking up new programming languages on your own. Having Javascript and web development experience is a plus, but not required. 
+You are expected to have programming experience (e.g,. CS50, Introduction to Programming) and you should be comfortable picking up new programming languages on your own. Having Javascript and web development experience is a plus, but not required. However, please be aware that learning a new programming language and/or library like D3 is a time consuming process!
 
 
 ### Required Textbooks
@@ -54,12 +54,12 @@ You can purchase both books from the [Coop bookstore](https://tinyurl.com/300-CS
 ### Lectures
 The class meets weekly for lectures and joint class activities. Attending lectures is a crucial component of learning the material presented in this course. Please arrive on time, as we will start promptly with a short graded quiz about the required readings. At the end of each lecture we will ask you to fill out and submit a one-minute reflection to collect feedback. 
 
-<!-- *DCE Students:* All lectures will be recorded and videos will be available within 24 hours after class time. Completed lecture activities and one-minute papers need to be submitted with your homework each week. -->
+*DCE Students:* We will stream the recorded lectures in a life session on Thursdays 7:30-9:55pm. Each class is a combination of lecturing and active learning session, which is why attendance is mandatory. Completed lecture activities and one-minute papers need to be submitted with your homework each week. We will also make lecture recordings available to DCE students after the life session.
 
 ### Labs
 For most of the semester, we will hold programming labs during regular class meeting times on Mondays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. You are allowed to work in pairs, but each student needs to hand in their own lab solution. Completed labs need to be handed in with the homework each week.  
 
-<!-- *DCE Students:* Labs are self-guided tutorials that you can complete on your own. Completed labs and one-minute papers need to be handed in with your homework each week. --> 
+*DCE Students:* Labs are self-guided tutorials that you can complete on your own. If you want more guidance, we offer interactive lab sessions on Mondays 7:55-9:55pm. Completed labs need to be handed in with your homework each week.
 
 ### Readings & Quizzes
 Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short online quizzes given at the beginning of each class will test your knowledge of the readings. Quizzes are part of your final grade.
@@ -68,12 +68,12 @@ Each lecture and lab includes required readings to ensure that you are prepared 
 Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
 ### Midterm
-There will be two midterm exams that will cover material from lectures, assigned readings, labs, and homework assignments. If you do not keep up with the readings, come to lecture, and complete the homework and labs you will be at a severe disadvantage during the midterms. The first midterm consists of an open-book (in-class) exam, and the second midterm will consist of an open-book part (90 minutes) as well as a take-home midterm project where you will implement an interactive visualization in D3 over the course of a couple of days.  
+There will be a midterm exam that will cover material from lectures, assigned readings, labs, and homework assignments. If you do not keep up with the readings, come to lecture, and complete the homework and labs you will be at a severe disadvantage during the midterms. The midterm consists of a ~90 minutes open-book (in-class) exam as well as a take-home midterm project where you will implement an interactive visualization in D3 over the course of a couple of days.  
 
 *DCE students:* The midterms will be open-book, not proctored, but limited to a fixed time span from the time you start it. For the take-home midterm project you will get the same amount of time as college students.
 
 ### Design Sprints
-A big part of the lectures will be design sprints. You will work in groups of 3-4 students to design, implement, and evaluate visualizations for a given topic and pre-defined datasets. Design sprints will span 3-4 weeks, and there will be two design sprints over the course of the semester.
+A big part of the lectures will be a design sprint. You will work in groups of 3-4 students to design, implement, and evaluate visualizations for a given topic and pre-defined dataset over the course of 8 weeks.
 
 ### Final Project
 A major part of the course is a final group project. You will work in groups of 3 students to design, implement, and evaluate visualizations through the same iterative design process as the design sprints with a series of graded milestones. The final result will be web page with interactive visualizations that answer questions you have about some topic of your own choosing. A small number of projects will win the coveted Best Project prize, including Swiss chocolate.
@@ -82,7 +82,7 @@ A major part of the course is a final group project. You will work in groups of 
 
 This course can be taken for a letter grade only, there is no pass/fail option. The course grade comprises:
 
-* Quizzes (5%)* Labs (5%)* Homework Assignments (30%)* Midterms (20%)* Design Sprints (10%)* Group Project (30%)
+* Quizzes (5%)* Labs (5%)* Homework Assignments (30%)* Midterm (20%)* Design Sprint (10%)* Group Project (30%)
 
 We will map your points to letter grades using the following table:  
 * A: 100-95%; A-: 90-95%    

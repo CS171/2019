@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CS171 Visualization
+title: CS171 Visualization - Fall 2019
 menu: Home
 order: 1
 ---
@@ -17,12 +17,12 @@ In this course you will learn how the human visual system processes and perceive
 This website is for both the Harvard college CS 171 course and the Harvard Extension School CSCI E-171 course.
 
 **Limited enrollment:** To provide the best possible learning experience this course has limited enrollment. We only admit 80 college students and 30 Extension school students.  
-*College students:* If you are interested in joining this course please fill out a enrollment survey. **The enrollment survey will be available after the first lecture (Sept 5th, 5:00pm) until Sunday Sept 9th, midnight.** The survey is available on our Canvas page.  
-*DCE students:* Course enrollment is on a first-come, first-serve basis.
+*College students:* If you are interested in joining this course please fill out a enrollment survey. **The enrollment survey will be available AFTER the first lecture (Sept 4th, 5:00pm) until Sunday Sept 8th, midnight.** The survey is available on our Canvas page.  
+*DCE students:* Course enrollment is on a first-come, first-serve basis, starting July 29th.
 
 **Cross-registering college students:** To get access to the course's Canvas page you will have to 1) get an XID [here](http://xid.harvard.edu/); 2) send an e-mail to staff@cs171.org with the subject 'Canvas ID'; 3) the e-mail needs to contain your Name, e-mail and XID.
 
-**Extension school students:** The course will be taught in two sessions per week. Each class will be a combination of instructor presentation and active learning. In an active learning session, students will meet, virtually, in small groups (4-5 students each) using Web conferencing software to work on problems collaboratively. A member of the course staff will visit each group (virtually) to provide assistance and coaching. Because of the importance of the collaborative, active learning component of the course, **DCE students must be available online at these times: Mo and Th, 7:55-9:55pm**. The presentation segment of each on-campus class will be videorecorded and streamed during those virtual class times.
+**Extension school students:** The course will be taught in two sessions per week. The lecture (Th, 7:30-9:55pm) has mandatory attendance, and the lab (Mo, 7:55-9:55pm) has optional attendance. Each class will be a combination of instructor presentation and active learning. In an active learning session, students will meet, virtually, in small groups (4-5 students each) using Web conferencing software to work on problems collaboratively. A member of the course staff will visit each group (virtually) to provide assistance and coaching. Because of the importance of the collaborative, active learning component of the course, **DCE students must be available online at these times: Th, 7:30-9:55pm**. The presentation segment of each on-campus class will be videorecorded and streamed during those virtual class times. For students who miss the life streaming, videos will be made available online.
 
 
 
@@ -42,26 +42,31 @@ Monday and Wednesday 3:00-5:00pm, Location: [Pierce 301](https://www.google.com/
 Office hours are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
 
 **Lecture Resources:**  
-Discussion forum on [Piazza](https://piazza.com/harvard/fall2018/cs171)  
-Materials and grades on [Canvas](https://canvas.harvard.edu/courses/42421)
+Discussion forum on [Piazza](https://piazza.com/harvard/fall2019/cs171)  
+Materials and grades on [Canvas](https://canvas.harvard.edu/courses/61741)
 
 
 ### Teaching Fellows
 
-* Michael Behrisch - Postdoctoral Fellow, Visual Computing Group 
-* Luke Civantos - Undergraduate
-* *Extension School TF:* Felix Gonda - PhD Candidate, Visual Computing Group
-* Katherine Harrison - Undergraduate
 * *Extension School TF:* Alain Ibrahim - Digital Product Development Manager
+
+* Tosin Alliyu - Masters student in Design Engineering
+* Laura Chapman - A. B. Candidate, Class of 2020
+* Jess Eng - A. B. Candidate in Statistics 
 * Rachel Kang - A. B. Candidate in Computer Science, Class of 2020
-* Nam Wook Kim - PhD Candidate, Visual Computing Group
 * Robert Krueger - Postdoctoral Fellow, Visual Computing Group
-* Celina Qi - Undergraduate
+* Fritz Lekschas - PhD Candidate, Visual Computing Group
+* Robert Roessler - PhD Candidate, Department of Germanic Languages and Literatures
+
+
+
 
 
 
 
 ### Previous Years
+
+[2018 Fall Website](http://www.cs171.org/2018/)
 
 [2017 Fall Website](http://www.cs171.org/2017/)
 

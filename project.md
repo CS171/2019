@@ -66,7 +66,7 @@ The project plan is the first part of your process book (see Final Project Submi
 ## Project Prototypes V1 and V2
 For your **prototype V1**, we expect you to hand in your code and your process book in its current state (see Final Project Submission for details). You should have completed your data acquisition, and you must have a working visualization prototype. You do not have to have all your views up and running, and it does not need to be completely interactive, but the direction and the content must be clear. 
 
-For your **prototype V2**, we expect you to be 95% done with the implementation, and have your process book up to date. After prototype V2, you will only have one week to incorporate comments from peer feedback to produce a final interactive project website. 
+For your **prototype V2**, we expect you to be 90% done with the implementation, and have your process book up to date. After prototype V2, you will only have two weeks to incorporate comments from peer feedback to produce a final interactive project website. 
 
 ## Final Project Submission
 For your final project you must hand in the following items.
