@@ -48,7 +48,7 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/courses/61741)
 
 ### Teaching Fellows
 
-* *Extension School TF:* Alain Ibrahim - Digital Product Development Manager
+* *Extension School TF:* Alain Ibrahim - Principal Software Architect
 
 * Tosin Alliyu - Masters student in Design Engineering
 * Laura Chapman - A. B. Candidate, Class of 2020
