@@ -54,7 +54,7 @@ You can purchase both books from the [Coop bookstore](https://tinyurl.com/300-CS
 ### Lectures
 The class meets weekly for lectures and joint class activities. Attending lectures is a crucial component of learning the material presented in this course. Please arrive on time, as we will start promptly with a short graded quiz about the required readings. At the end of each lecture we will ask you to fill out and submit a one-minute reflection to collect feedback. 
 
-*DCE Students:* We will stream the recorded lectures in a life session on Thursdays 7:30-9:55pm. Each class is a combination of lecturing and active learning session, which is why attendance is mandatory. Completed lecture activities and one-minute papers need to be submitted with your homework each week. We will also make lecture recordings available to DCE students after the life session.
+*DCE Students:* We will stream the recorded lectures in a life session on Thursdays 7:40-10:10pm. Each class is a combination of lecturing and active learning session, which is why attendance is mandatory. Completed lecture activities and one-minute papers need to be submitted with your homework each week. We will also make lecture recordings available to DCE students after the life session.
 
 ### Labs
 For most of the semester, we will hold programming labs during regular class meeting times on Mondays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. You are allowed to work in pairs, but each student needs to hand in their own lab solution. Completed labs need to be handed in with the homework each week.  
