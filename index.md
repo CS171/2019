@@ -36,7 +36,7 @@ Johanna Beyer (Head TF)
 
 **Lectures & Labs:**   
 Monday and Wednesday 3:00-5:00pm, Location: [Pierce 301](https://www.google.com/maps/place/Pierce+Hall/@42.3780874,-71.1192954,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3774113de44af:0x5966efcfd3aa5965!8m2!3d42.3780874!4d-71.1171014?hl=en)  
-*DCE students:* Monday and Thursday 7:55-9:55pm, online video conference.
+*DCE students:* Monday (7:55-9:55pm) and Thursday (7:40-10:10pm), online video conference.
 
 **Office Hours:**  
 Office hours are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
