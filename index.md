@@ -50,9 +50,10 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/courses/61741)
 
 * *Extension School TF:* Alain Ibrahim - Principal Software Architect
 * *Extension School TF:* Tosin Alliyu - Masters Candidate in Design Engineering
-* *Grader* Olivia Bryant -  A. B. Candidate in Statistics, Class of 2021
+* *Grader:* Olivia Bryant -  A. B. Candidate in Statistics, Class of 2021
 * Laura Chapman - A. B. Candidate in Computer Science, Class of 2020
 * Jess Eng - A. B. Candidate in Folklore and Mythology and Statistics, Class of 2021 
+* *Grader:* Felix Gonda - PhD Candidate, Visual Computing Group
 * Robert Krueger - Postdoctoral Fellow, Visual Computing Group
 * Fritz Lekschas - PhD Candidate, Visual Computing Group
 * Robert Roessler - PhD Candidate, Department of Germanic Languages and Literatures
