@@ -32,6 +32,7 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 
 ## Web Development
 
+[Courseduck Javascript](https://courseduck.com/programming/javascript/) - Listing of best online JS courses
 [WebStorm by JetBrains](https://www.jetbrains.com/webstorm/) - Smart JavaScript IDE ([free for students](https://www.jetbrains.com/student/))   
 [Eloquent Javascript Book](http://eloquentjavascript.net/)   
 [DevDocs](http://devdocs.io/), [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - Unified documentations on major web technologies   
