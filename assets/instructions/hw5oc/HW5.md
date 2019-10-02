@@ -153,7 +153,7 @@ Browse the selection of videos and pick your three favorites. Your favorites can
 
 This assignment is meant to introduce you to the world of visualization *research*. Not all videos will be polished, some will tell you just the basic facts, while others will be more like an *elevator pitch*, trying to sell their visualization to you. Have fun exploring!
 
-
+-->
 
 
 
