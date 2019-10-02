@@ -140,6 +140,7 @@ A D3 line chart will be the core component of your visualization. The x-axis rep
 
 	Maintain good spacing between UI components, overall layout, font size, color scheme, etc. Also, make sure that transitions are intuitive and clear.
 
+<!--
 ## 2) Check out the IEEE Visualization Conference (3 points)
 
 Most of the CS171 staff is at the IEEE Visualization conference in Berlin, Germany this week. IEEE Vis is the world's largest research conference on visualization.
@@ -154,7 +155,7 @@ This assignment is meant to introduce you to the world of visualization *researc
 
 
 
-<!--
+
 
 ## 2) Interaction Design (3 points)
 
@@ -175,7 +176,7 @@ This assignment is meant to introduce you to the world of visualization *researc
 
 	- Scan your branching interaction storyboards.
 	
--->
+
 
 ## 3) Bonus Task (1 point)
 
