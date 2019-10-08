@@ -59,13 +59,6 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/courses/61741)
 * Robert Roessler - PhD Candidate, Department of Germanic Languages and Literatures
 * Yalong Yang - Postdoctoral Fellow, Visual Computing Group
 
-
-
-
-
-
-
-
 ### Previous Years
 
 [2018 Fall Website](http://www.cs171.org/2018/)
