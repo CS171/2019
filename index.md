@@ -57,6 +57,7 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/courses/61741)
 * Robert Krueger - Postdoctoral Fellow, Visual Computing Group
 * Fritz Lekschas - PhD Candidate, Visual Computing Group
 * Robert Roessler - PhD Candidate, Department of Germanic Languages and Literatures
+* Yalong Yang - Postdoctoral Fellow, Visual Computing Group
 
 
 
