@@ -84,3 +84,4 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/courses/61741)
 [2013 Video Archive](http://cm.dce.harvard.edu/2013/02/22872/publicationListing.shtml)
 
 [2012 Video Archive](http://cm.dce.harvard.edu/2012/02/22872/publicationListing.shtml)
+
