@@ -143,7 +143,6 @@ A D3 line chart will be the core component of your visualization. The x-axis rep
 
 
 
-
 ## 2) Interaction Design (3 points)
 
 1. **Chose a visualization**
