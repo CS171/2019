@@ -9,7 +9,7 @@ exclude: true
 
 # Lab 1
 
-Welcome to the first lab of CS171! 
+Welcome to the first lab of CS171!
 
 ***First step:***
 Please go to Canvas and fill in the pre-reading quiz. The quiz is live from 2:50pm to 3:15pm for on-campus students and until Sunday 11:59pm for DCE students.
@@ -43,10 +43,10 @@ After completing this lab you will be able to:
 &nbsp;
 ## Setup
 During the next weeks, you will be working through the book *D3 - Interactive Data Visualization for the Web* (Second Edition) by Scott Murray.
-The book provides a lot of sample code (see page 5 of the book, *Using Sample Code*). 
+The book provides a lot of sample code (see page 5 of the book, *Using Sample Code*).
 
-- Download and extract the sample code for the book now. It can be found [here](https://github.com/alignedleft/d3-book/releases). 
-- Set up a directory on your computer for the sample code and remember its location. 
+- Download and extract the sample code for the book now. It can be found [here](https://github.com/alignedleft/d3-book/releases).
+- Set up a directory on your computer for the sample code and remember its location.
 - Starting next week, while working through the book, you should look at and run the sample code. It will help you prepare for labs and homeworks!
 
 For todays lab, you should prepare the following:
@@ -74,12 +74,14 @@ As you have read, HTML is used to structure content for web browsers. It enables
 
 *A brief HTML example:*
 
-	<h1>Curious George Goes to a Chocolate Factory</h1>
-	<p>
-		When <i>George</i> and the man with the yellow hat stop to shop at a chocolate
-		factory store, George becomes curious about how chocolates are made...
-	</p>
-	
+```html
+<h1>Curious George Goes to a Chocolate Factory</h1>
+<p>
+	When <i>George</i> and the man with the yellow hat stop to shop at a chocolate
+	factory store, George becomes curious about how chocolates are made...
+</p>
+```
+
 
 *Result as shown in a web browser:*
 
@@ -93,7 +95,7 @@ Every HTML5 document requires a little bit of boilerplate code that you should j
 
 You should get familiar with this structure:
 
-```
+```html
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -120,7 +122,7 @@ To solve this problem, we can give the element a unique ID: *book-123*. However,
 
 (3) ```<div class="book content">Visualization Analysis and Design</div>```
 
-Any attribute or styling information that needs to be applied to multiple elements on a page should be done with a *class*. In the above example, we have assigned the div element to the class *book*, that allows us to select all HTML containers of the type *book*. At the same time, we have assigned the div element to the class *content*. 
+Any attribute or styling information that needs to be applied to multiple elements on a page should be done with a *class*. In the above example, we have assigned the div element to the class *book*, that allows us to select all HTML containers of the type *book*. At the same time, we have assigned the div element to the class *content*.
 
 Elements can be assigned multiple classes, simply by separating them with a space.
 
@@ -135,19 +137,19 @@ Elements can be assigned multiple classes, simply by separating them with a spac
 2. **Copy the HTML boilerplate into your empty file**
 
 3. **Add some structure to the *body* of your new document and try different HTML elements. The content should be appropriate for the HTML tags you are using (e.g., a headline vs. a paragraph).**
-	
+
 	Make sure to include at least:
-	
+
 	* A top-level headline
 	* An empty div-container (will be filled with facts later)
 	* A hyperlink to any other page
 	* An image
 	* A button (will trigger the search for a new fact)
-		
+
 	Open your file ```basics.html``` in a web browser to see the results.
 
 4. **Add the following classes and IDs to the elements**
-	
+
 	* Add the ID ```content``` to the div container
 	* Add the ID ```cs171-basics``` to the button
 	* Add the classes ```btn``` and ```btn-primary``` to the button
@@ -170,17 +172,17 @@ The difference between HTML and DOM should be more understandable after the foll
 Every modern-day web browser has built-in *developer tools* that expose the current state of the DOM and help us to better understand what is going on. In this exercise we will use the *Web Inspector* to view the DOM tree of our document.
 
 
-1. **Create a new folder ```js``` in your project, download the file ```dom-example.js``` and save it in your newly created folder** 
+1. **Create a new folder ```js``` in your project, download the file ```dom-example.js``` and save it in your newly created folder**
 
 	[http://www.cs171.org/2019/assets/scripts/lab1/dom-example.js](http://www.cs171.org/2019/assets/scripts/lab1/dom-example.js)
-	
+
 
 2. **Include the external JavaScript file that you just downloaded in your HTML document. Add the following line at the bottom of your previously created ```basics.html``` (inside the ```<body></body>```)**
 
-	```
+	```html
 	<script src="js/dom-example.js"></script>
 	```
-		
+
 	This script will listen to your button (*ID: cs171-basics*). It will automatically deliver random facts if you click on the button.
 
 
@@ -190,15 +192,15 @@ Every modern-day web browser has built-in *developer tools* that expose the curr
 
 	- Chrome: View → Developer → Developer Tools
 	- Firefox: Tools → Web Developer → Inspector
-	
+
 	Make sure to check out the keyboard shortcut of your system to open the developer tools!
 
 4. **Inspecting the DOM with the *Web Inspector***
 
 	In the default mode, the *Web Inspector* should be docked to the bottom of the window and split the page horizontally.
-		
-	We can see something that looks like the source code of the HTML document that you wrote in your editor. Some tags are probably collapsed. Actually, you are **not** viewing the raw content of your HTML document. What you are seeing is the visual representation of the DOM tree (after all scripts have run and potentially modified the original HTML source)!	
-		
+
+	We can see something that looks like the source code of the HTML document that you wrote in your editor. Some tags are probably collapsed. Actually, you are **not** viewing the raw content of your HTML document. What you are seeing is the visual representation of the DOM tree (after all scripts have run and potentially modified the original HTML source)!
+
 	The HTML you write is parsed by the browser and turned into the DOM. In simple cases this will look like your raw HTML, but if any JavaScript code has been executed, the current DOM may be different, as JavaScript commands can add, remove, and adjust the DOM dynamically.
 
 5. **Update the DOM: Click on the previously created button!**
@@ -206,15 +208,15 @@ Every modern-day web browser has built-in *developer tools* that expose the curr
 	Every time you click on the button, a function in the external JavaScript file that we provided for you will be triggered that adds a new paragraph (random fact) to the DOM tree. You can see the new elements in the browser window and the current state of the DOM in the *Web Inspector*.
 
 	Your ```basics.html``` remains unchanged. We have only modified the DOM with JavaScript, not the actual document. Your modifications will be discarded if you reload the page.
-	
+
 	If you have trouble getting this step to work you should double check that you have added the appropriate IDs to your HTML tags!
-	
+
 6. **Update the DOM: Delete nodes from the DOM tree**
 
 	You can also use the *Web Inspector* to modify your DOM directly. You can edit the content, add attributes or delete nodes. Try it out and delete some paragraphs!
 
 	The developer tools of modern browsers usually include many other tools to make the life of a web developer easier. In the next activity we will use the Web Inspector to modify CSS and next week we will use the JavaScript Console for debugging.
-	
+
 	**From now on, whenever you are programming HTML, CSS, JavaScript, or D3, you should always have the developer console open. This helps you in debugging and figuring out what is going on in the code!**
 
 -----
@@ -224,9 +226,9 @@ Every modern-day web browser has built-in *developer tools* that expose the curr
 
 With HTML you define the structure and content of the page and with CSS you set its style - things like fonts, colors, margins, backgrounds etc.
 
-A stylesheet will usually consist of a list of CSS rules that are inserted either in a ```<style>``` block in your HTML header, or, more often, stored in an external file and included via the below line of code. Make sure to include an external style sheet always in the HTML header (inside the ```<head></head>``` elements of your HTML file). 
+A stylesheet will usually consist of a list of CSS rules that are inserted either in a ```<style>``` block in your HTML header, or, more often, stored in an external file and included via the below line of code. Make sure to include an external style sheet always in the HTML header (inside the ```<head></head>``` elements of your HTML file).
 
-	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/style.css">
 
 This assumes that you have a separate file ```style.css``` in the folder ```css```.
 
@@ -254,37 +256,39 @@ As you can see in the example below, IDs are preceded with a hash mark (*#articl
 
 *Example:*
 
-	<!DOCTYPE HTML>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-  	  	<title>Simple CSS</title>
- 	   	<style>
- 	   	#article-1 {
- 	   	  text-decoration: underline;
- 	   	}
-        	.error {
-            	  font-weight: bold;
-            	  color: red;
-        	}
-        	.article .warning {
-          	  color: blue;
-        	}
-   		</style>
-	</head>
-	<body>
+```html
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	  	<title>Simple CSS</title>
+	   	<style>
+	   	#article-1 {
+	   	  text-decoration: underline;
+	   	}
+      	.error {
+          	  font-weight: bold;
+          	  color: red;
+      	}
+      	.article .warning {
+        	  color: blue;
+      	}
+ 		</style>
+</head>
+<body>
 
-	<div class="article" id="article-1">Some text</div>
-	
-	<div class="article">
-		Some other text
-		<div class="warning">and a warning</div>
-	</div>
-	
-	<div class="article error">Error!</div>
+<div class="article" id="article-1">Some text</div>
 
-	</body>
-	</html>
+<div class="article">
+	Some other text
+	<div class="warning">and a warning</div>
+</div>
+
+<div class="article error">Error!</div>
+
+</body>
+</html>
+```
 
 *Result:*
 
@@ -310,19 +314,19 @@ In this activity you will use CSS to add custom styles to your HTML file.
 	- *Color* or *Background-Color* properties
 
 	You can play around with different CSS parameters, but don't worry too much right now about making your webpage look beautiful, we will come back to the design at the end of the lab.
-	
+
 3. **Inspecting the CSS with the *Web Inspector***
 
 	If you are working on a more sophisticated problem it can be very useful to analyze your CSS rules with the *Web Inspector*. The CSS styles in the right panel match the currently selected DOM element.
-	
+
 	- Click on different lines in the *Elements*-panel to see the respective CSS properties. The rules are collected from inline styles, attached stylesheets and user agent stylesheets. User agent stylesheets are the browser's default properties, such as font-size or margin.
-	
+
 	- Be mindful that rules that are specified later in a CSS file generally override rules that were specified earlier in the file, but not always. The true logic has to do with the specificity of each selector. The *div.content* selector would override the *div* rule even if it were listed first, simply because it is a more specific selector.
-		
+
 		The order of the CSS rules in the right panel helps you to identify the importance of the individual styles.
-	
+
 	- Similar to the DOM tree, you can also modify, add and remove CSS rules and properties in the web inspector. This is a quick and easy way to try different styles directly in the browser (debugging), but keep in mind that the changes will be discarded if you reload the page. Try it out and modify your CSS in the browser!
-	
+
 	- If you include a specific color in your CSS properties the *Web Inspector* shows you a small button, linked to a color picker. This little tool can help you to find the desired color codes. Add a new CSS rule in the *Web Inspector* and change the font color of the headline!
 
 
@@ -333,13 +337,13 @@ In this activity you will use CSS to add custom styles to your HTML file.
 
 Rather than coding from scratch, frameworks enable you to utilize ready made blocks of code to help you get started. They give you a solid foundation for what a typical web project requires and usually they are also flexible enough for customization.
 
-In CS171 we use ***Bootstrap*** as an example open source HTML, JS and CSS framework. It is one of the most widely used frameworks, it is easy to understand and it provides a great documentation with many examples. 
+In CS171 we use ***Bootstrap*** as an example open source HTML, JS and CSS framework. It is one of the most widely used frameworks, it is easy to understand and it provides a great documentation with many examples.
 
 The question whether a framework can be useful depends on the individual project and on the developer. Therefore, it is up to you to decide if you want to use it in your homeworks or projects.
 
 Here is a summary of the main aspects of *Bootstrap*:
 
-* **Open source** HTML, CSS, and JS framework 
+* **Open source** HTML, CSS, and JS framework
 * Provides a **base styling** for common used HTML elements
 * The **grid system** helps you to create multi-column and nested layouts, especially if your website should work on different devices
 * Extensive list of **pre-styled components** (navigation, dropdown-menu, forms, tables, icons ...)
@@ -352,38 +356,38 @@ Here is a summary of the main aspects of *Bootstrap*:
 #### Activity 4
 
 
-In the last activity you will download and include the Bootstrap JavaScript library in your project. 
+In the last activity you will download and include the Bootstrap JavaScript library in your project.
 
 
 1. **Download Bootstrap**
 
 	[http://getbootstrap.com/](https://getbootstrap.com/)
-	
+
 	Choose the first option (compiled CSS and JS), "Download Bootstrap". This will download a zip file.
-	
+
 2. **Extract the zip file and copy the sub-folders into your current project directory**
 
 3. **Include the Bootstrap files in your ```basics.html```**
 
 	In your header link to the bootstrap minified CSS: ```bootstrap.min.css```
-	
+
 	Every time you work with CSS libraries/frameworks you should insert them right before your own stylesheets. Thereby your rules are prioritized and you can override the default properties of the libraries.
-	
+
 	> *The purpose of minification is to increase the speed of websites, by removing spacing, indentation, newlines and comments. These elements are not required to successfully run CSS in a browser. The best practice of many developers is to maintain a regular version of the CSS file and when rolling out the project, the stylesheet is transformed to the optimized version.*
-	
-	Bootstrap provides some JavaScript components too. In this lab our focus is on CSS but you should include the *Bootstrap JavaScript* and the required *jQuery JavaScript library* too, otherwise there may be problems with some components. 
-	
+
+	Bootstrap provides some JavaScript components too. In this lab our focus is on CSS but you should include the *Bootstrap JavaScript* and the required *jQuery JavaScript library* too, otherwise there may be problems with some components.
+
 	Insert these lines at the bottom of your ```body```-block:
-	
-	```
+
+	```html
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	```
 	As with CSS files, every time you work with JavaScript libraries/frameworks you should insert them right before your own JavaScript files.
-	
+
 	Note that we are linking to online versions of the jquery and popper Javascript libraries, alternatively, we could download local copies into the project directory, and link to them.
-	 	
+
 4. **Reload ```basics.html```in your browser**
 
 	* Do you notice any changes?
@@ -392,23 +396,23 @@ In the last activity you will download and include the Bootstrap JavaScript libr
 5. **Insert a *Dropdown-Button* in your ```basics.html``` using Bootstrap**
 
 	*A single button which triggers a small dropdown menu with multiple options.*
-	
+
 	Adding a dropdown menu can be done with a few lines of HTML and CSS, but today we are using Bootstrap for it. Sometimes it can be very useful to start with existing components, especially when building prototypes.
-	
+
 	Go to the official Bootstrap website and skim over the different styles and pre-configured components:
-	
+
 	[http://getbootstrap.com/components/](http://getbootstrap.com/components/)
-	
+
 	Search for the *Dropdown-Button* and copy the HTML example code in your ```basics.html```. Try the dropdown-menu in your browser afterwards. Adding new Bootstrap elements to your HTML page is often very quick and easy, by using the example code on the bootstrap webpage.
 
 6. **Override Bootstrap styles**
 
 	- Add custom CSS rules to change the *Background-Color* and the Hover-State of the previously created button in your ```style.css```.
 
-	- We assume that you do not know the CSS selectors or properties for changing the background color and the hover-state yet. Search for it online, either in google or at [W3 school](https://www.w3schools.com/cssref/sel_hover.asp). Example search term: CSS background color. 
-	
-	This allows us to to make full use of Bootstrap's potential. We can use boilerplates for different components, add custom content and override some styles subsequently. 
-		
+	- We assume that you do not know the CSS selectors or properties for changing the background color and the hover-state yet. Search for it online, either in google or at [W3 school](https://www.w3schools.com/cssref/sel_hover.asp). Example search term: CSS background color.
+
+	This allows us to to make full use of Bootstrap's potential. We can use boilerplates for different components, add custom content and override some styles subsequently.
+
 	*Keep in mind: If you have to override too many styles, it can be easier to work without a framework.*
 
 &nbsp;
@@ -426,18 +430,18 @@ Bootstrap is a very popular front-end framework for web projects but there are a
 These bonus activities are not required, but we recommend that you try them!
 
 1. **Beautify basics.html**
-	
+
 	Play around with different CSS styles. Think of the design of webpages you like and try to recreate that look. Look at CSS files of pages you like.
-	
+
 2. **Try other Bootstrap components**
 
 	Go back to the Bootstrap website and look at their [examples](https://getbootstrap.com/docs/3.3/getting-started/#examples). Include some other Bootstrap components in your ```basics.html``` file.
-	
+
 	*Just copy and paste the respective boilerplate codes and play around with the styles.*
 
 3. **Add a grid layout to your webpage**
 
-	Take a look at some [grid examples](https://getbootstrap.com/docs/3.3/css/#grid) of Bootstrap. Use the first screenshot in this document as guideline to create a grid with the textual facts on the left and images on the right. 
+	Take a look at some [grid examples](https://getbootstrap.com/docs/3.3/css/#grid) of Bootstrap. Use the first screenshot in this document as guideline to create a grid with the textual facts on the left and images on the right.
 
 -----
 
