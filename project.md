@@ -47,7 +47,7 @@ For grading the implementation part of the final project, we will evaluate proje
 In your project proposal you will let us know what topic you are interested in exploring, including a project title and abstract, by submitting a project proposal form. Each team will only need to submit one form.
 
 ## Project Plan
-You will create a detailed project plan, which should address the following points. For detailed submission instructions please see Canvas.
+You will create a detailed project plan, which should address the following points. For detailed and up-to-date submission instructions please see Canvas.
 
 * **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project URL.
 * **Background and Motivation.** Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
