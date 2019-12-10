@@ -6,6 +6,22 @@ order: 8
 menu: Fame
 ---
 
+## Best Projects Fall 2019
+These are the best projects (out of 31 in total) in 2019. 
+
+### Winner
+[Marvel Cinematic Universe](https://patsukhum.github.io/Marvel/)
+Benjamin Levy, Rachel Moon, Pat Sukhum, Kevin Ji Whan Yoon
+
+### Runner Up
+[Loneliness - A Social Story](https://lyip12.github.io/loneliness/)
+Guangyu Du, Lucy Yip, Runjia Tian
+
+### Honorable Mention
+[Bits of Food](https://bitsoffood.andwonders.works/)
+Yuefeng Cui, Kaitlyn Germain, Jared Jessup, Kelly Wang 
+
+
 ## Best Projects Fall 2018
 These are the best projects (out of 26 in total) in 2018. 
 
