@@ -15,7 +15,7 @@ Benjamin Levy, Rachel Moon, Pat Sukhum, Kevin Ji Whan Yoon
 
 ### Runner Up
 [Loneliness - A Social Story](https://lyip12.github.io/loneliness/)
-Guangyu Du, Lucy Yip, Runjia Tian
+Guangyu Du, Runjia Tian, Lucy Yip
 
 ### Honorable Mention
 [Bits of Food](https://bitsoffood.andwonders.works/)
