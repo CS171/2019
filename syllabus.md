@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabus
+title: Syllabus 2019
 permalink: /syllabus/
 menu: Syllabus
 order: 2

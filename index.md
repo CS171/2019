@@ -11,8 +11,8 @@ order: 1
 
 <div class="credits"><a href="http://mbostock.github.io/d3/talk/20111116/bundle.html">Hierarchical edge bundling]</a> | <a href="http://hint.fm/wind/">Wind map</a> | <a href="http://www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html?_r=0">How states have shifted</a> </div>
 
-# Attention: This Website is for the 2019 course only! The 2020 course can be found on Canvas!
-## [Link to the CS 171 Canvas site](https://canvas.harvard.edu/courses/74834)
+## Attention: This Website is for the 2019 course only! The 2020 course can be found on Canvas!
+## [Link to the 2020 CS 171 Canvas site](https://canvas.harvard.edu/courses/74834)
 
 The amount and complexity of information produced in science, engineering, business, and everyday human activity is increasing at staggering rates. The goal of this course is to expose you to visual representation methods and techniques that increase the understanding of complex data. Good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making.
 
